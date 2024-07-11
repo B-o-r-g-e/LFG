@@ -11,6 +11,7 @@ const App = () => {
                     <Description />
                     <Hero />
                 </div>
+                <p>&copy;LFG. All rights reserved.</p>
             </div>
         </div>
     )

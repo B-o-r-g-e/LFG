@@ -1,4 +1,5 @@
 import dex from "../assets/dex.svg";
+import jup from "../assets/jup.png";
 
 const Description = () => {
     return (
@@ -15,13 +16,23 @@ const Description = () => {
                     <span className={'font-bold'}>CA:</span> AXCqbA8GFUsqi37dVCYoCufG7x2PyZBS7jJdQLtxLgTf
                 </p>
             </div>
-            <button className={'flex w-44'}>
-                <a href="https://dexscreener.com/solana/6RfBTrFyttmGuRCdRgx1veeqP2g5wFB6cG9mUuiKkejS" className={'flex gap-2'}>
-                    <img className={"w-6 h-6"} src={dex} alt="dex-image"/>
-                    DEXScreener
-                </a>
+            <div className={'flex gap-4'}>
+                <button className={'flex w-44'}>
+                    <a href="https://dexscreener.com/solana/6RfBTrFyttmGuRCdRgx1veeqP2g5wFB6cG9mUuiKkejS"
+                       className={'flex gap-2'}>
+                        <img className={"w-6 h-6"} src={dex} alt="dex-image"/>
+                        DEXScreener
+                    </a>
+                </button>
+                <button className={'flex w-44 bg-[#DE9232]'}>
+                    <a href="https://jup.ag/swap/AXCqbA8GFUsqi37dVCYoCufG7x2PyZBS7jJdQLtxLgTf-SOL"
+                       className={'flex gap-2 items-center justify-center '}>
+                        <img className={"w-7 h-7"} src={jup} alt="dex-image"/>
+                        Buy $LFG
+                    </a>
+                </button>
+            </div>
 
-            </button>
         </div>
     )
 }
