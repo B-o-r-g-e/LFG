@@ -15,9 +15,12 @@ const Description = () => {
                     <span className={'font-bold'}>CA:</span> AXCqbA8GFUsqi37dVCYoCufG7x2PyZBS7jJdQLtxLgTf
                 </p>
             </div>
-            <button className={'flex w-44'}>
-                <img className={"w-6 h-6"} src={dex} alt="dex-image"/>
-                DEXScreener
+            <button className={'flex w-44 gap-4'}>
+                <a href="https://dexscreener.com/">
+                    <img className={"w-6 h-6"} src={dex} alt="dex-image"/>
+                    DEXScreener
+                </a>
+
             </button>
         </div>
     )
