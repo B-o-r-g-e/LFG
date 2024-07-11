@@ -9,8 +9,8 @@ const NavBar = () => {
             <h1 className={'font-black text-2xl'}>LFG</h1>
             <div className={'flex gap-4'}>
                 <ul className={'flex items-center gap-4'}>
-                    <li className={'text-3xl'}><FaTwitter /></li>
-                    <li className={'text-3xl'}><FaTelegram /></li>
+                    <li className={'text-3xl'} ><a href="https://x.com/ScaredMoneycto"><FaTwitter /></a> </li>
+                    <li className={'text-3xl'}><a href="https://t.me/SCAREDMONEYLFGSOL"><FaTelegram /></a></li>
                     <li className={'p-2 rounded-full bg-gray-900'}><img className={"w-6 h-6"} src={dex} alt="dex-image"/></li>
                 </ul>
             </div>
