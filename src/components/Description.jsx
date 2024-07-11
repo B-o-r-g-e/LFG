@@ -16,7 +16,7 @@ const Description = () => {
                 </p>
             </div>
             <button className={'flex w-44'}>
-                <a href="https://dexscreener.com/">
+                <a href="https://dexscreener.com/" className={'flex'}>
                     <img className={"w-6 h-6"} src={dex} alt="dex-image"/>
                     DEXScreener
                 </a>
