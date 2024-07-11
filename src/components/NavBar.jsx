@@ -11,7 +11,7 @@ const NavBar = () => {
                 <ul className={'flex items-center gap-4'}>
                     <li className={'text-3xl'} ><a href="https://x.com/ScaredMoneycto"><FaTwitter /></a> </li>
                     <li className={'text-3xl'}><a href="https://t.me/SCAREDMONEYLFGSOL"><FaTelegram /></a></li>
-                    <li className={'p-2 rounded-full bg-gray-900'}><a href="https://dexscreener.com/">
+                    <li className={'p-2 rounded-full bg-gray-900'}><a href="https://dexscreener.com/solana/6RfBTrFyttmGuRCdRgx1veeqP2g5wFB6cG9mUuiKkejS">
                         <img className={"w-6 h-6"} src={dex} alt="dex-image"/>
                     </a></li>
                 </ul>
